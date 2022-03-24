@@ -5,7 +5,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
-import java.net.URL
 import kotlin.random.Random
 
 
@@ -13,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
         //Créer un lien avec le boutton
         val btn_click_me = findViewById(R.id.button) as Button
